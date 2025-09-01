@@ -1,0 +1,1 @@
+export const basic_url = `https://goalmoonshot.ngrok.app/api/v1/`
