@@ -39,14 +39,14 @@ function Header() {
         <div className="container mx-auto ">
           <div className="flex items-center justify-between px-4 h-20">
             <Link to="/" className="flex items-center gap-3">
-              <img
+              {/* <img
                 src="/icons/logo.png"
                 alt="Logo"
                 className="h-[52px] w-auto"
               />
               <p className="text-center font-inter font-black text-3xl leading-[52px] text-[#FFFFFF] w-fit max-[1200px]:hidden">
                 GOAL MOON SHOOT
-              </p>
+              </p> */}
             </Link>
 
             {/* Desktop Navigation */}

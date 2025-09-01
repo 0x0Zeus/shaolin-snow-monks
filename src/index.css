@@ -60,7 +60,15 @@ body {
 }
 
 .hero-title {
-  /* text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.5); */
+  text-shadow: 
+    -1px 0px #1A7CFF88,
+    0 1px #1A7CFF88,
+    1px 0 #1A7CFF88,
+    0 -1px #1A7CFF88,
+    -1px -1px #1A7CFF88,
+    -1px 1px #1A7CFF88,
+    1px -1px #1A7CFF88,
+    1px 1px #1A7CFF88;
 }
 
 .hero-content {
