@@ -1,29 +1,25 @@
-import { CiPlay1 } from "react-icons/ci";
-import { Link } from "react-router-dom";
-
 interface MusicTypes {
   id: number;
   title: string;
+  subtitle: string;
   artist: string;
-  source: string;
-  url: string;
+  image: string;
+  word: string;
 }
 
 const MusicComponent = (item: MusicTypes) => {
   return (
-    <div className="rounded-[16px] border-[3px] border-[#1A7CFF] bg-white flex flex-col">
+    <div className="items-start space-y-2 rounded-[20px] border-[3px] border-[#1A7CFF] bg-[#071B39] p-4">
       <img
-        src={"/images/music.png"}
+        src={item.image}
         alt={item.title}
-        className="h-auto w-full rounded-t-[13px]"
+        className="h-auto w-full rounded-2xl"
       />
-      <div className="flex flex-col items-center gap-5 p-5 text-center bg-[#071B39] flex-1 rounded-b-[13px]">
-        <p className="text-2xl font-bold text-white">{item.title}</p>
-        <Link to={item.url}>
-          <div className="rounded-xl h-[76px] w-[76px] bg-[radial-gradient(50%_50%_at_50%_50%,#0077FF20_0%,#0077FF40_100%)] text-4xl text-white flex items-center justify-center">
-            <CiPlay1 />
-          </div>
-        </Link>
+      <p className="text-xl font-medium text-white text-left pt-3">{item.title}</p>
+      <p className="text-lg font-medium text-white text-left">{item.subtitle}</p>
+      <p className="text-xs text-white text-left leading-5">{item.artist}</p>
+      <div className="bg-[#1A7CFF]/10 border-l-2 border-[#1A7CFF] box-content p-2 text-left italic text-white/60 text-sm" >
+        "{item.word}"
       </div>
     </div>
   );

@@ -108,7 +108,13 @@ body {
 .contactus-bg {
   background-image: url("/images/contactus-bg.png");
   background-repeat: no-repeat;
-  background-size: auto 100%;
-  background-position: right;
+  background-size: 100% auto;
+  border-bottom: 1px solid #333333;
+}
+
+.aboutus-bg {
+  background-image: url("/images/contactus-bg.png");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
   border-bottom: 1px solid #333333;
 }

@@ -36,14 +36,17 @@ const ContactUs = () => {
 
   return (
     <>
-      <div className="min-h-[calc(100vh-80px)]">
-        <div className="container mx-auto px-4 py-20 sm:px-6">
-          <div className="relative">
-            <h1 className="music-title pb-20 pt-10 text-center font-inter text-3xl font-black text-white sm:pt-20 sm:text-4xl md:text-[64px]">
+      <div className="contactus-bg pb-12 pt-[100px] sm:pb-[60px] md:pb-[90px] lg:pb-[135px]">
+        <div className="container">
+          <div className="space-y-10 px-4 pt-[50px] text-center md:pt-[100px]">
+            <h1 className="hero-title py-[50px] text-4xl font-semibold text-white md:text-6xl">
               Contact Us
             </h1>
-            <div className="absolute bottom-0 right-1/2 h-[200px] w-[400px] translate-x-1/2 bg-[radial-gradient(50%_50%_at_50%_100%,rgba(26,124,255,0.5)_0%,rgba(26,124,255,0)_100%)] sm:h-[300px] sm:w-[600px]"></div>
           </div>
+        </div>
+      </div>
+      <div className="min-h-[calc(100vh-80px)]">
+        <div className="container mx-auto px-4 py-20 sm:px-6">
           <div className="mx-auto mt-10 grid w-full max-w-[1096px] divide-x-[1px] divide-[#1A7CFF] rounded-2xl border border-[#1A7CFF] bg-[#1A7CFF]/10 sm:mt-16 lg:grid-cols-2">
             <div className="flex flex-col gap-6 rounded-l-[15px] px-4 py-6 text-white sm:gap-8 sm:px-6 sm:py-8 md:justify-start md:gap-8 md:px-[44px] md:py-12">
               <h1 className="text-lg font-medium text-[#ffffff]">Contact Us</h1>

@@ -111,12 +111,11 @@ const HomePage = () => {
   return (
     <div className="font-inter">
       <Hero />
-      <Brand />
       <Music />
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative">
         <div className="space-y-10 px-4 py-10 pb-16 text-center md:space-y-20 md:py-20 md:pb-32">
           <h1 className="music-title mt-8 text-xl font-black text-white sm:text-2xl md:text-3xl lg:text-4xl ">
-            Latest Posts
+            Recent Posts
           </h1>
           <div className="flex flex-col items-center justify-between gap-6 lg:flex-row lg:items-start lg:gap-10">
             <div className="space-y-5 flex-1">
@@ -173,8 +172,6 @@ const HomePage = () => {
             </div>
           </div>
         </div>
-        <div className="absolute left-0 top-20 h-[400px] w-[400px] -translate-x-1/2 bg-[radial-gradient(50%_50%_at_50%_50%,rgba(26,124,255,0.5)_0%,rgba(26,124,255,0)_100%)] sm:h-[600px] sm:w-[600px] pointer-events-none"></div>
-        <div className="absolute right-0 top-20 h-[400px] w-[400px] translate-x-1/2 bg-[radial-gradient(50%_50%_at_50%_50%,rgba(26,124,255,0.5)_0%,rgba(26,124,255,0)_100%)] sm:h-[600px] sm:w-[600px] pointer-events-none"></div>
       </div>
     </div>
   );

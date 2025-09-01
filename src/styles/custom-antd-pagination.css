@@ -16,6 +16,7 @@
 .ant-pagination {
   color: #ffffff !important;
   font-size: 16px !important;
+  
 }
 
 .ant-select:not(.ant-select-customize-input) .ant-select-selector {
@@ -32,10 +33,10 @@
 }
 
 .ant-select-dropdown {
-  color: #ffffff !important;
+  color: #000000 !important;
   line-height: 48px !important;
   font-size: 16px !important;
-  background-color: #000000 !important;
+  background-color: #FFFFFF !important;
   border-color: #1A7CFF !important;
   outline-color: #1A7CFF33 !important;
 }
@@ -47,6 +48,10 @@
 .ant-select-dropdown
   .ant-select-item-option-selected:not(.ant-select-item-option-disabled) {
   color: #ffffff !important;
+}
+
+.ant-select-item-option-content {
+  color: #000000 
 }
 
 .ant-select-selector .ant-select-selection-search-input {
@@ -102,6 +107,8 @@
 .ant-pagination > li {
   margin-top: 8px !important;
   margin-bottom: 8px !important;
+  margin-left: 5px !important;
+  margin-right: 5px !important;
 }
 
 .ant-pagination .ant-pagination-options {
