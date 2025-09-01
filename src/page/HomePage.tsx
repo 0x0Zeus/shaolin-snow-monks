@@ -7,7 +7,6 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import { MdSearch } from "react-icons/md";
 import "@/styles/posts.css";
-import Brand from "@/components/Home/Brand";
 
 interface DataItem {
   category_id: number;
