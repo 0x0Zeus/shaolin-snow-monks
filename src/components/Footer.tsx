@@ -12,17 +12,18 @@ const Footer: FC = () => {
           </span>
           <ul className="flex flex-wrap items-center justify-center gap-4 sm:gap-8">
             <li className="cursor-pointer transition-colors hover:text-white">
-              <Link to="https://www.youtube.com/@goal2moon">
+              <Link to="https://www.youtube.com/@ShaolinSnowMonks
+">
                 <FaYoutube />
               </Link>
             </li>
             <li className="cursor-pointer transition-colors hover:text-white">
-              <Link to="https://x.com/@GoalToTheMoon">
+              <Link to="https://x.com/@ShaolinSnowMonk">
                 <FaXTwitter />
               </Link>
             </li>
             <li className="cursor-pointer transition-colors hover:text-white">
-              <Link to="https://www.tiktok.com/@goal2moon">
+              <Link to="https://www.tiktok.com/@shaolinsnowmonks">
                 <FaTiktok />
               </Link>
             </li>

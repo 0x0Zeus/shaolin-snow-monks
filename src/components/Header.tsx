@@ -39,14 +39,14 @@ function Header() {
         <div className="container mx-auto ">
           <div className="flex items-center justify-between px-4 h-20">
             <Link to="/" className="flex items-center gap-3">
-              {/* <img
+              <img
                 src="/icons/logo.png"
                 alt="Logo"
                 className="h-[52px] w-auto"
               />
-              <p className="text-center font-inter font-black text-3xl leading-[52px] text-[#FFFFFF] w-fit max-[1200px]:hidden">
-                GOAL MOON SHOOT
-              </p> */}
+              <p className="text-center font-inter font-black text-3xl leading-[52px] text-[#1A7CFF] w-fit max-[1200px]:hidden">
+                SHAOLIN SNOW MONKS
+              </p>
             </Link>
 
             {/* Desktop Navigation */}
@@ -72,26 +72,26 @@ function Header() {
             </ul>
 
             <div className="flex items-center gap-5 text-black">
-              <Link to="https://www.youtube.com/@goal2moon" className="text-black max-md:hidden">
+              <Link to="https://www.youtube.com/@ShaolinSnowMonks" className="text-black max-md:hidden">
                 <FaYoutube size={24} />
               </Link>
-              <Link to="https://x.com/@GoalToTheMoon" className="text-black max-md:hidden">
+              <Link to="https://x.com/@ShaolinSnowMonk" className="text-black max-md:hidden">
                 <FaXTwitter size={24} />
               </Link>
-              <Link to="https://www.tiktok.com/@goal2moon" className="text-black max-md:hidden">
+              <Link to="https://www.tiktok.com/@shaolinsnowmonks" className="text-black max-md:hidden">
                 <FaTiktok size={24} />
               </Link>
             </div>
 
             {/* Mobile Dropdown Menu */}
             <div className="md:hidden flex gap-5 items-center">
-              <Link to="https://www.youtube.com/@goal2moon" className="text-black">
+              <Link to="https://www.youtube.com/@ShaolinSnowMonks" className="text-black">
                 <FaYoutube size={24} />
               </Link>
-              <Link to="https://x.com/@GoalToTheMoon" className="text-black">
+              <Link to="https://x.com/@ShaolinSnowMonks" className="text-black">
                 <FaXTwitter size={24} />
               </Link>
-              <Link to="https://www.tiktok.com/@goal2moon" className="text-black">
+              <Link to="https://www.tiktok.com/@shaolinsnowmonks" className="text-black">
                 <FaTiktok size={24} />
               </Link>
               <Dropdown

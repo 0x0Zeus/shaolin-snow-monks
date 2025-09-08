@@ -1,1 +1,1 @@
-export const basic_url = `https://shaolinsnowmonks.ngrok.app/`
+export const basic_url = `https://shaolinsnowmonks.ngrok.app/api/v1/`

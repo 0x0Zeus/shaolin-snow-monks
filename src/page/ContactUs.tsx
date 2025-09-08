@@ -61,19 +61,19 @@ const ContactUs = () => {
                 <p className="text-xl font-medium">Follow Us</p>
                 <div className="flex items-center gap-5">
                   <Link
-                    to="https://www.youtube.com/@goal2moon"
+                    to="https://www.youtube.com/@ShaolinSnowMonks"
                     className="text-white max-md:hidden"
                   >
                     <FaYoutube size={24} />
                   </Link>
                   <Link
-                    to="https://x.com/@GoalToTheMoon"
+                    to="https://x.com/@ShaolinSnowMonk"
                     className="text-white max-md:hidden"
                   >
                     <FaXTwitter size={24} />
                   </Link>
                   <Link
-                    to="https://www.tiktok.com/@goal2moon"
+                    to="https://www.tiktok.com/@shaolinsnowmonks"
                     className="text-white max-md:hidden"
                   >
                     <FaTiktok size={24} />

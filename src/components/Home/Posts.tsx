@@ -32,7 +32,7 @@ const Posts = ({
             <RelatedPersonSay
               key={index}
               id={item.id}
-              author="TRDARTS.com"
+              author="shaolinsnowmonks.com"
               time={moment(item.created_at).format("MM/DD/YYYY")}
               articleTitle={item.title}
               articleSubtitle={item.summary}

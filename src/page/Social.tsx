@@ -12,7 +12,7 @@ const Social = () => {
             <p className="text-2xl font-black leading-tight text-[#ffffff]/80 sm:text-3xl sm:leading-[64px] md:text-4xl mb-3">
               YouTube Channel
             </p>
-            <Link to={"https://www.youtube.com/@livelikekong"}>
+            <Link to={"https://www.youtube.com/@ShaolinSnowMonks"}>
               <img
                 src="/images/youtube.jpeg"
                 alt="youtube"
@@ -24,7 +24,7 @@ const Social = () => {
             <p className="text-2xl font-black leading-tight text-[#ffffff]/80 sm:text-3xl sm:leading-[64px] md:text-4xl mb-3">
               Twitter Channel
             </p>
-            <Link to={"https://x.com/LiveLikeKong"}>
+            <Link to={"https://x.com/@ShaolinSnowMonk"}>
               <img
                 src="/images/twitter.jpeg"
                 alt="twitter"
@@ -36,7 +36,7 @@ const Social = () => {
             <p className="text-2xl font-black leading-tight text-[#ffffff]/80 sm:text-3xl sm:leading-[64px] md:text-4xl mb-3">
               Tiktok Channel
             </p>
-            <Link to={"https://www.tiktok.com/@livelikekong"}>
+            <Link to={"https://www.tiktok.com/@shaolinsnowmonks"}>
               <img
                 src="/images/tiktok.png"
                 alt="tiktok"

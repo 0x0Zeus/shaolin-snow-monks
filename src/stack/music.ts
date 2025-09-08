@@ -1,5 +1,13 @@
 export const music = [
   {
+    id: 0,
+    title: "Grand Master",
+    subtitle: "The Eternal Guardian",
+    artist: "No monk recalls the Grand Master's true origin. Some say he walked from the snows before time itself. Others whisper he is the embodiment of every Shaolin Snow Monk who has ever lived. His presence commands silence, and his teachings shape destinies. He is the balance between frost and flame, wisdom and wrath.",
+    image: "/images/monster.png",
+    word: "The path is endless. Walk it anyway."
+  },
+  {
     id: 1,
     title: "Hanzo",
     subtitle: "The Fist of Fire",
